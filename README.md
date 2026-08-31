@@ -202,3 +202,6 @@ if (isMainThread) {
 - ☠️ `delete` dan `watch` (saat file lokal dihapus) bersifat **permanen**, bukan ke trash
 - 🔧 Scope: `drive` (full access). Untuk akses terbatas ganti scope di `auth.go` → `https://www.googleapis.com/auth/drive.file`, lalu hapus `token.json`
 - 📦 Tidak ada dependency `google.golang.org/api` — semua komunikasi Drive pakai pure `net/http`
+
+
+<!-- Security scan triggered at 2026-08-31 16:47:33 -->
